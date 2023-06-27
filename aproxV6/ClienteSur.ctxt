@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ClienteSur
+comment1.params=identificacion\ nombre\ curso\ notauno\ notados
+comment1.target=ClienteSur(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double)
+comment2.params=
+comment2.target=double\ calcularPromedio()
+comment3.params=
+comment3.target=double\ getClasificacionuno()
+comment4.params=clasificacionuno
+comment4.target=void\ setClasificacionuno(double)
+comment5.params=
+comment5.target=double\ getClasificaciondos()
+comment6.params=clasificaciondos
+comment6.target=void\ setClasificaciondos(double)
+numComments=7
