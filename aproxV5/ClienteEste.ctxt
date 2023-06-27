@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ClienteEste
+comment1.params=
+comment1.target=java.lang.String\ getIdentificacion()
+comment10.params=identificacion\ nombre\ genero\ calificacionuno\ calificaciondos
+comment10.target=ClienteEste(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double)
+comment11.params=
+comment11.target=double\ calcularPromedio()
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=nombre
+comment3.target=void\ setNombre(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getGenero()
+comment5.params=genero
+comment5.target=void\ setGenero(java.lang.String)
+comment6.params=
+comment6.target=double\ getCalificacionuno()
+comment7.params=calificacionuno
+comment7.target=void\ setCalificacionuno(double)
+comment8.params=
+comment8.target=double\ getCalificaciondos()
+comment9.params=calificaciondos
+comment9.target=void\ setNotados(double)
+numComments=12
