@@ -2,9 +2,9 @@ public class ClienteNorte{
     private final String identificacion;
     private String nombre;
     private String genero;
-    private double calificacionUno;
-    private double calificacionDos;
-    private double calificacionTres;
+    private double calificacionuno;
+    private double calificaciondos;
+    private double calificaciontres;
     
     public String getIdentificacion(){
         return identificacion;
@@ -27,42 +27,40 @@ public class ClienteNorte{
     }
     
     public double getCalificacionuno(){
-        return calificacionUno;
+        return calificacionuno;
     }
-    public void setCalificacionuno(double calificacionUno){
-        if(calificacionUno >= 0) this.calificacionUno = calificacionUno;
-        else this.calificacionUno = 0;
+    public void setCalificacionuno(double calificacionuno){
+        if(calificacionuno >= 0) this.calificacionuno = calificacionuno;
+        else this.calificacionuno = 0;
     }
     
     public double getCalificaciondos(){
-        return calificacionDos;
+        return calificaciondos;
     }
-    public void setCalificaciondos(double calificacionDos){
-        if(calificacionDos >= 0) this.calificacionDos = calificacionDos;
-        else this.calificacionDos = 0;
+    public void setCalificaciondos(double calificaciondos){
+        if(calificaciondos >= 0) this.calificaciondos = calificaciondos;
+        else this.calificaciondos = 0;
     }
     
     public double getCalificaciontres(){
-        return calificacionTres;
+        return calificaciontres;
     }
-    public void setCalificaciontres(double calificacionTres){
-        if(calificacionTres >= 0) this.calificacionTres = calificacionTres;
-        else this.calificacionTres = 0;
+    public void setCalificaciontres(double calificaciontres){
+        if(calificaciontres >= 0) this.calificaciontres = calificaciontres;
+        else this.calificaciontres = 0;
     }
     
-    ClienteNorte(String identificacion, String nombre, String genero, double calificacionUno, double calificacionDos, double calificacionTres){
+    ClienteNorte(String identificacion, String nombre, String genero, double calificacionuno, double calificaciondos, double calificaciontres){
         if(identificacion != null) this.identificacion = identificacion;
         else this.identificacion = "";
         setNombre(nombre);
         setCurso(genero);
-        setCalificacionuno(calificacionUno);
-        setCalificaciondos(calificacionDos);
-        setCalificaciontres(calificacionTres);
+        setCalificacionuno(calificacionuno);
+        setCalificaciondos(calificaciondos);
+        setCalificaciontres(calificaciontres);
     }
     
     double calcularPromedio(){
-        return (calificacionUno + calificacionDos + calificacionTres) / 3;
+        return (calificacionuno + calificaciondos + calificaciontres) / 3;
     }
 }
-
-
