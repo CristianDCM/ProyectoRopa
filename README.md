@@ -5,6 +5,6 @@
 
 ![Imagen del Proyecto](img/CDU.jpg)
 
-<h2>Jira</h2>
+<h2>Historia de Usuario</h2>
 
 ![Imagen del Proyecto](img/Jira.jpeg)
