@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Estudiante
+comment1.params=identificacion\ nombre\ curso
+comment1.target=Estudiante(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=double\ calcularPromedio()
+comment3.params=
+comment3.target=java.lang.String\ getIdentificacion()
+comment4.params=
+comment4.target=java.lang.String\ getNombre()
+comment5.params=nombre
+comment5.target=void\ setNombre(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getCurso()
+comment7.params=curso
+comment7.target=void\ setCurso(java.lang.String)
+numComments=8
