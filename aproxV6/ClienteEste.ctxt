@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ClienteEste
+comment1.params=identificacion\ nombre\ curso\ notauno\ notados\ notatres\ notacuatro
+comment1.target=ClienteEste(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double,\ double,\ double)
+comment10.params=clasificacioncuatro
+comment10.target=void\ setClasificacioncuatro(double)
+comment2.params=
+comment2.target=double\ calcularPromedio()
+comment3.params=
+comment3.target=double\ getClasificacionuno()
+comment4.params=clasificacionuno
+comment4.target=void\ setClasificacionuno(double)
+comment5.params=
+comment5.target=double\ getClasificaciondos()
+comment6.params=clasificaciondos
+comment6.target=void\ setClasificaciondos(double)
+comment7.params=
+comment7.target=double\ getClasificaciontres()
+comment8.params=clasificaciontres
+comment8.target=void\ setClasificaciontres(double)
+comment9.params=
+comment9.target=double\ getClasificacioncuatro()
+numComments=11
