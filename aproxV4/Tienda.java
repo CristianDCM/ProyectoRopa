@@ -53,8 +53,8 @@ public class Tienda
         return promedio;
     }
     
-    public void adicionarCliente(String identificacion, String nombre, String curso, double notauno, double notados, double notatres){
-        Cliente e = new Cliente(identificacion, nombre, curso, notauno, notados, notatres);
+    public void adicionarCliente(String identificacion, String nombre, String genero, double notauno, double notados, double notatres){
+        Cliente e = new Cliente(identificacion, nombre, genero, notauno, notados, notatres);
         cliente[numClientes] = e;
         numClientes++;
     }
