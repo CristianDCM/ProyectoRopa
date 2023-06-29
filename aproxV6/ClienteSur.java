@@ -5,8 +5,8 @@ public class ClienteSur extends Cliente {
     private double clasificaciontres;
     private double clasificacioncuatro;
 
-    ClienteSur(String identificacion, String nombre, String curso, double notauno, double notados, double notatres, double notacuatro) {
-        super(identificacion, nombre, curso);
+    ClienteSur(String identificacion, String nombre, String genero, double notauno, double notados, double notatres, double notacuatro) {
+        super(identificacion, nombre, genero);
         setClasificacionuno(clasificacionuno);
         setClasificaciondos(clasificaciondos);
         setClasificaciontres(clasificaciontres);

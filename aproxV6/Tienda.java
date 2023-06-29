@@ -43,21 +43,21 @@ public class Tienda
         return promedio / 3;
     }
 
-    public void adicionarClienteEste(String identificacion, String nombre, String curso, double calificacionuno,
+    public void adicionarClienteEste(String identificacion, String nombre, String genero, double calificacionuno,
             double calificaciondos) {
-        cliente[numeroClientes] = new ClienteEste(identificacion, nombre, curso, calificacionuno, calificaciondos);
+        cliente[numeroClientes] = new ClienteEste(identificacion, nombre, genero, calificacionuno, calificaciondos);
         numeroClientes++;
     }
 
-    public void adicionarClienteNorte(String identificacion, String nombre, String curso, double calificacionuno,
+    public void adicionarClienteNorte(String identificacion, String nombre, String genero, double calificacionuno,
             double calificaciondos, double calificaciontres) {
-        cliente[numeroClientes] = new ClienteNorte(identificacion, nombre, curso, calificacionuno, calificaciondos,
+        cliente[numeroClientes] = new ClienteNorte(identificacion, nombre, genero, calificacionuno, calificaciondos,
                 calificaciontres);
     }
 
-    public void adicionarClienteSur(String identificacion, String nombre, String curso, double calificacionuno,
+    public void adicionarClienteSur(String identificacion, String nombre, String genero, double calificacionuno,
             double calificaciondos, double calificaciontres, double calificacioncuatro) {
-        cliente[numeroClientes] = new ClienteSur(identificacion, nombre, curso, calificacionuno, calificaciondos,
+        cliente[numeroClientes] = new ClienteSur(identificacion, nombre, genero, calificacionuno, calificaciondos,
                 calificaciontres, calificacioncuatro);
     }
 }
