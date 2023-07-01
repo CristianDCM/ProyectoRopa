@@ -18,11 +18,11 @@ public class Calificaciones {
             nombre = sc.next();
             System.out.println("Digita la genero del Cliente");
             genero = sc.next();
-            System.out.println("Digita la Calificacion uno del estudiante");
+            System.out.println("Digita la Calificacion uno del cliente");
             calificacion1 = sc.nextDouble();
-            System.out.println("Digita la Calificacion dos del estudiante");
+            System.out.println("Digita la Calificacion dos del cliente");
             calificacion2 = sc.nextDouble();
-            System.out.println("Digita la Calificacion tres del estudiante");
+            System.out.println("Digita la Calificacion tres del cliente");
             calificacion3 = sc.nextDouble();
             Cliente unCliente = new Cliente(identificacion, nombre, genero, calificacion1, calificacion2,
                     calificacion3);
