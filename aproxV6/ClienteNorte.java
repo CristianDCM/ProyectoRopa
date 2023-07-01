@@ -1,51 +1,51 @@
 
 public class ClienteNorte extends Cliente {
-    private double clasificacionuno;
-    private double clasificaciondos;
-    private double clasificaciontres;
+    private double calificacionuno;
+    private double calificaciondos;
+    private double calificaciontres;
 
     ClienteNorte(String identificacion, String nombre, String genero, double calificacionuno, double calificaciondos, double calificaciontres) {
         super(identificacion, nombre, genero);
-        setClasificacionuno(clasificacionuno);
-        setClasificaciondos(clasificaciondos);
-        setClasificaciontres(clasificaciontres);
+        setCalificacionuno(calificacionuno);
+        setCalificaciondos(calificaciondos);
+        setCalificaciontres(calificaciontres);
     }
 
     double calcularPromedio() {
-        return (clasificacionuno + clasificaciondos) / 2;
+        return (calificacionuno + calificaciondos) / 2;
 
     }
 
-    public double getClasificacionuno() {
-        return clasificacionuno;
+    public double getCalificacionuno() {
+        return calificacionuno;
     }
 
-    public void setClasificacionuno(double clasificacionuno) {
-        if (clasificacionuno >= 0)
-            this.clasificacionuno = clasificacionuno;
+    public void setCalificacionuno(double calificacionuno) {
+        if (calificacionuno >= 0)
+            this.calificacionuno = calificacionuno;
         else
-            this.clasificacionuno = 0;
+            this.calificacionuno = 0;
     }
 
-    public double getClasificaciondos() {
-        return clasificaciondos;
+    public double getCalificaciondos() {
+        return calificaciondos;
     }
 
-    public void setClasificaciondos(double clasificaciondos) {
-        if (clasificaciondos >= 0)
-            this.clasificaciondos = clasificaciondos;
+    public void setCalificaciondos(double calificaciondos) {
+        if (calificaciondos >= 0)
+            this.calificaciondos = calificaciondos;
         else
-            this.clasificaciondos = 0;
+            this.calificaciondos = 0;
     }
 
-    public double getClasificaciontres() {
-        return clasificaciontres;
+    public double getCalificaciontres() {
+        return calificaciontres;
     }
 
-    public void setClasificaciontres(double clasificaciontres) {
-        if (clasificaciondos >= 0)
-            this.clasificaciontres = clasificaciontres;
+    public void setCalificaciontres(double calificaciontres) {
+        if (calificaciondos >= 0)
+            this.calificaciontres = calificaciontres;
         else
-            this.clasificaciontres = 0;
+            this.calificaciontres = 0;
     }
 }
