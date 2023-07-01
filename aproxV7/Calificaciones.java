@@ -10,9 +10,9 @@ public class Calificaciones{
         
         do{
             System.out.println("\nMenu de Opciones");
-            System.out.println("[1]- Adicionar Cliente de Este: ");
-            System.out.println("[2]- Adicopnar Cliente de Tienda: ");
-            System.out.println("[3]- Adicionar Cliente de Sur ");
+            System.out.println("[1]- Adicionar Cliente Este: ");
+            System.out.println("[2]- Adicopnar Cliente Norte: ");
+            System.out.println("[3]- Adicionar Cliente Sur ");
             System.out.println("[4]- Calcular Promedio ");
             System.out.println("[5]- Salir \n");
             System.out.println("Escoja una Opcion: ");
