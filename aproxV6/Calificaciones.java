@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
-public class Calificaciones
-{
+public class Calificaciones{
     public static void main(String[] args){
-
         Scanner sc = new Scanner(System.in);
         Tienda miTienda = new Tienda("","","");
         String identificacion, nombre, genero;
@@ -18,7 +16,7 @@ public class Calificaciones
             identificacion = sc.nextLine();
             System.out.println("Digite el nombre del cliente:");
             nombre = sc.nextLine();
-            System.out.println("Digite el generon del estudiante: ");
+            System.out.println("Digite el genero del cliente: ");
             genero = sc.nextLine();
             System.out.println("Digite la calificacion 1 del Cliente:");
             calificacion1 = sc.nextInt();
@@ -35,7 +33,7 @@ public class Calificaciones
             identificacion = sc.nextLine();
             System.out.println("Digite el nombre del cliente:");
             nombre = sc.nextLine();
-            System.out.println("Digite el generon del estudiante: ");
+            System.out.println("Digite el genero del cliente: ");
             genero = sc.nextLine();
             System.out.println("Digite la calificacion 1 del Cliente:");
             calificacion1 = sc.nextInt();
@@ -55,7 +53,7 @@ public class Calificaciones
             identificacion = sc.nextLine();
             System.out.println("Digite el nombre del cliente:");
             nombre = sc.nextLine();
-            System.out.println("Digite el generon del estudiante: ");
+            System.out.println("Digite el generon del cliente: ");
             genero = sc.nextLine();
             System.out.println("Digite la calificacion 1 del Cliente:");
             calificacion1 = sc.nextInt();
