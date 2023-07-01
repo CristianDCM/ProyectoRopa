@@ -1,12 +1,11 @@
 import java.util.Scanner;
-
 public class Calificaciones {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numeroClientes;
         Cliente[] losClientes = new Cliente[50];
         String identificacion, nombre;
-        int edad;
+        int genero;
         double calificacion1, calificacion2, calificacion3;
         double promedio = 0;
 
@@ -17,8 +16,8 @@ public class Calificaciones {
             identificacion = sc.next();
             System.out.println("Digita el nombre del Cliente");
             nombre = sc.next();
-            System.out.println("Digita la edad del Cliente");
-            edad = sc.nextInt();
+            System.out.println("Digite el genero del Cliente");
+            genero = sc.nextInt();
             System.out.println("Digita la Calificacion uno del estudiante");
             calificacion1 = sc.nextDouble();
             System.out.println("Digita la Calificacion dos del estudiante");
@@ -28,7 +27,7 @@ public class Calificaciones {
             Cliente unCliente = new Cliente();
             unCliente.identificacion = identificacion;
             unCliente.nombre = nombre;
-            unCliente.edad = edad;
+            unCliente.genero = genero;
             unCliente.calificacionUno = calificacion1;
             unCliente.calificacionDos = calificacion2;
             unCliente.calificacionTres = calificacion3;

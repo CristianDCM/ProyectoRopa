@@ -17,9 +17,9 @@ public class Calificaciones{
             nombre = sc.next();
             System.out.println("Digite el genero del Cliente: ");
             genero = sc.next();
-            System.out.println("Digite primera nota del cliente: ");
+            System.out.println("Digite la calificacion 1 del cliente: ");
             calificaciones1 = sc.nextDouble();
-            System.out.println("Digite segunda nota del cliente: ");
+            System.out.println("Digite la calificacion 2 del cliente: ");
             calificaciones2 = sc.nextDouble();            
             miTienda.adicionarClienteEste(identificacion, nombre, genero, promedio, numClientes1);
         }
@@ -27,41 +27,41 @@ public class Calificaciones{
         System.out.println("Digite el numero de clientes del Norte: ");
         int numClientes2 = sc.nextInt();
         for(int i = 0; i < numClientes2; i++){
-            double calificaciones1, calificaciones2, nota3;
+            double calificaciones1, calificaciones2, calificaciones3;
             System.out.println("Digite la Identificacion del Cliente: ");
             identificacion = sc.next();
             System.out.println("Digite el nombre del Cliente: ");
             nombre = sc.next();
             System.out.println("Digite el genero del Cliente: ");
             genero = sc.next();
-            System.out.println("Digite primera nota del cliente: ");
+            System.out.println("Digite la calificacion 1 del cliente: ");
             calificaciones1 = sc.nextDouble();
-            System.out.println("Digite segunda nota del cliente: ");
+            System.out.println("Digite la calificacion 2 del cliente: ");
             calificaciones2 = sc.nextDouble();            
-            System.out.println("Digite tercera nota del cliente: ");
-            nota3 = sc.nextDouble();
-            miTienda.adicionarClienteNorte(identificacion, nombre, genero, calificaciones1, calificaciones2, nota3);
+            System.out.println("Digite la calificacion 3 del cliente: ");
+            calificaciones3 = sc.nextDouble();
+            miTienda.adicionarClienteNorte(identificacion, nombre, genero, calificaciones1, calificaciones2, calificaciones3);
         }
         
         System.out.println("Digite el numero de clientes del Sur:");
         int numClientes3 = sc.nextInt();
         for(int i = 0; i < numClientes3; i++){
-            double calificaciones1, calificaciones2, nota3, nota4;            
+            double calificaciones1, calificaciones2, calificaciones3, calificaciones4;            
             System.out.println("Digite la Identificacion del Cliente: ");
             identificacion = sc.next();
             System.out.println("Digite el nombre del Cliente: ");
             nombre = sc.next();
             System.out.println("Digite el genero del Cliente: ");
             genero = sc.next();
-            System.out.println("Digite primera nota del cliente: ");
+            System.out.println("Digite la calificacion 1 del cliente: ");
             calificaciones1 = sc.nextDouble();
-            System.out.println("Digite segunda nota del cliente: ");
+            System.out.println("Digite la calificacion 2 del cliente: ");
             calificaciones2 = sc.nextDouble();            
-            System.out.println("Digite tercera nota del cliente: ");
-            nota3 = sc.nextDouble();
-            System.out.println("Digite cuarta nota del cliente: ");
-            nota4 = sc.nextDouble();            
-            miTienda.adicionarClienteSur(identificacion, nombre, genero, calificaciones1, calificaciones2, nota3, nota4);
+            System.out.println("Digite la calificacion 3 del cliente: ");
+            calificaciones3 = sc.nextDouble();
+            System.out.println("Digite la calificacion 4 del cliente: ");
+            calificaciones4 = sc.nextDouble();            
+            miTienda.adicionarClienteSur(identificacion, nombre, genero, calificaciones1, calificaciones2, calificaciones3, calificaciones4);
         }
         
         promedio = miTienda.calcularPromedioGeneral();

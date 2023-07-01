@@ -1,7 +1,7 @@
 public class Cliente {
     String identificacion;
     String nombre;
-    int edad;
+    int genero;
     double calificacionUno;
     double calificacionDos;
     double calificacionTres;

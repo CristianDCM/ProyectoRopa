@@ -6,7 +6,7 @@ public class Tienda
         Scanner sc = new Scanner(System.in);
         double promedio = 0;
         String[] identificaciones = new String[10], nombres = new String[10];
-        int[] edades = new int[10];
+        int[] generos = new int[10];
         double[] calificacion1 = new double[10];
         double[] calificacion2 = new double[10];
         double[] calificacion3 = new double[10];
@@ -19,7 +19,7 @@ public class Tienda
             System.out.println("Digite el nombre del cliente: ");
             String nombreCliente = sc.nextLine();
             System.out.println("Digite la edad del cliente: ");
-            int edadCliente = sc.nextInt();
+            int generoCliente = sc.nextInt();
             System.out.println("Digite la calificacion 1 del cliente " + nombreCliente + ": ");
             double calificacionUno = sc.nextInt();
             System.out.println("Digite la calificacion 2 del cliente " + nombreCliente + ": ");
@@ -28,7 +28,7 @@ public class Tienda
             double calificacionTres = sc.nextInt();
             identificaciones[i] = idCliente;
             nombres[i] = nombreCliente;
-            edades[i] = edadCliente;
+            generos[i] = generoCliente;
             calificacion1[i] = calificacionUno;
             calificacion2[i] = calificacionDos;
             calificacion3[i] = calificacionTres;
