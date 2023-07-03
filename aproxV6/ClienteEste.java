@@ -1,4 +1,3 @@
-
 public class ClienteEste extends Cliente {
     private double calificacionuno;
     private double calificaciondos;
