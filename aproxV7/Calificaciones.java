@@ -84,7 +84,7 @@ public class Calificaciones{
                 case 4:
                         sc.nextLine();
                         promedio = miTienda.calcularPromedioGeneral();
-                        System.out.println("\n El promedio de calificaciones es: " + promedio); 
+                        System.out.println("El promedio de calificaciones es: " + promedio); 
                         break;
                 default:
                         System.out.println("Ha Seleccionado Salir");
