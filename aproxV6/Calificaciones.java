@@ -53,7 +53,7 @@ public class Calificaciones{
             identificacion = sc.nextLine();
             System.out.println("Digite el nombre del cliente:");
             nombre = sc.nextLine();
-            System.out.println("Digite el generon del cliente: ");
+            System.out.println("Digite el genero del cliente: ");
             genero = sc.nextLine();
             System.out.println("Digite la calificacion 1 del Cliente:");
             calificacion1 = sc.nextInt();
@@ -66,5 +66,7 @@ public class Calificaciones{
             miTienda.adicionarClienteSur(identificacion, nombre, genero, calificacion1, calificacion2,
                     calificacion3, calificacion4);
         }
+        promedio = miTienda.calcularPromedioGeneral();
+        System.out.println("El promedio de calificacion es: " + promedio);
     }
 }
