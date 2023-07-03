@@ -12,17 +12,17 @@ public class Calificaciones{
         numClientes = sc.nextInt();
 
         for(int i = 0; i < numClientes; i++){
-            System.out.println("Digite la Identificacion del Cliente: ");
+            System.out.println("Digite la identificacion del Cliente: ");
             identificacion = sc.next();
             System.out.println("Digite el nombre del Cliente: ");
             nombre = sc.next();
             System.out.println("Digite el genero del Cliente: ");
             genero = sc.next();
-            System.out.println("Digite primera calificacion del cliente: ");
+            System.out.println("Digite la calificacion 1 del cliente: ");
             calificacion1 = sc.nextDouble();
-            System.out.println("Digite segunda calificacion del cliente: ");
+            System.out.println("Digite la calificacion 2 del cliente: ");
             calificacion2 = sc.nextDouble();            
-            System.out.println("Digite tercera calificacion del cliente: ");
+            System.out.println("Digite la calificacion 3 del cliente: ");
             calificacion3 = sc.nextDouble();
             miTienda.adicionarCliente(identificacion, nombre, genero, calificacion1, calificacion2, calificacion3);
         }

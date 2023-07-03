@@ -58,7 +58,7 @@ public class Tienda
         cliente.add(new ClienteNorte(identificacion, nombre, curso, calificacionuno, calificaciondos, calificaciontres));
     }
     
-    public void adicionarCliente(String identificacion, String nombre, String curso, double calificacionuno, double calificaciondos, double calificaciontres, double notacuatro)throws Exception{
-        cliente.add(new ClienteSur(identificacion, nombre, curso, calificacionuno, calificaciondos, calificaciontres, notacuatro));
+    public void adicionarCliente(String identificacion, String nombre, String curso, double calificacionuno, double calificaciondos, double calificaciontres, double calificacioncuatro)throws Exception{
+        cliente.add(new ClienteSur(identificacion, nombre, curso, calificacionuno, calificaciondos, calificaciontres, calificacioncuatro));
     }
 }    

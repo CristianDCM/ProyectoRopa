@@ -9,20 +9,20 @@ public class Calificaciones {
         double calificacion1, calificacion2, calificacion3;
         double promedio = 0;
 
-        System.out.println("Digita la cantidad de clientes: ");
+        System.out.println("Digite la cantidad de clientes: ");
         numClientes = sc.nextInt();
         for (int i = 0; i < numClientes; i++) {
             System.out.println("Digite la identificacion del Cliente");
             identificacion = sc.next();
-            System.out.println("Digita el nombre del Cliente");
+            System.out.println("Digite el nombre del Cliente");
             nombre = sc.next();
-            System.out.println("Digita la genero del Cliente");
+            System.out.println("Digite la genero del Cliente");
             genero = sc.next();
-            System.out.println("Digita la Calificacion uno del cliente");
+            System.out.println("Digite la Calificacion 1 del cliente");
             calificacion1 = sc.nextDouble();
-            System.out.println("Digita la Calificacion dos del cliente");
+            System.out.println("Digite la Calificacion 2 del cliente");
             calificacion2 = sc.nextDouble();
-            System.out.println("Digita la Calificacion tres del cliente");
+            System.out.println("Digite la Calificacion 3 del cliente");
             calificacion3 = sc.nextDouble();
             Cliente unCliente = new Cliente(identificacion, nombre, genero, calificacion1, calificacion2,
                     calificacion3);

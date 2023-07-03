@@ -36,7 +36,7 @@ public class ClienteEste{
     public double getCalificaciondos(){
         return calificaciondos;
     }
-    public void setNotados(double calificaciondos){
+    public void setCalificaciondos(double calificaciondos){
         if(calificaciondos >= 0) this.calificaciondos = calificaciondos;
         else this.calificaciondos = 0;
     }
@@ -47,7 +47,7 @@ public class ClienteEste{
         setNombre(nombre);
         setGenero(genero);
         setCalificacionuno(calificacionuno);
-        setNotados(calificaciondos);
+        setCalificaciondos(calificaciondos);
     }
     
     double calcularPromedio(){

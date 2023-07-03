@@ -1,37 +1,37 @@
 
 public class ClienteEste extends Cliente {
-    private double clasificacionuno;
-    private double clasificaciondos;
+    private double calificacionuno;
+    private double calificaciondos;
 
-    ClienteEste(String identificacion, String nombre, String genero, double notauno, double notados) {
+    ClienteEste(String identificacion, String nombre, String genero, double calificacionuno, double calificaciondos) {
         super(identificacion, nombre, genero);
-        setClasificacionuno(clasificacionuno);
-        setClasificaciondos(clasificaciondos);
+        setcalificacionuno(calificacionuno);
+        setcalificaciondos(calificaciondos);
     }
 
     double calcularPromedio() {
-        return (clasificacionuno + clasificaciondos) / 2;
+        return (calificacionuno + calificaciondos) / 2;
     }
 
-    public double getClasificacionuno() {
-        return clasificacionuno;
+    public double getcalificacionuno() {
+        return calificacionuno;
     }
 
-    public void setClasificacionuno(double clasificacionuno) {
-        if (clasificacionuno >= 0)
-            this.clasificacionuno = clasificacionuno;
+    public void setcalificacionuno(double calificacionuno) {
+        if (calificacionuno >= 0)
+            this.calificacionuno = calificacionuno;
         else
-            this.clasificacionuno = 0;
+            this.calificacionuno = 0;
     }
 
-    public double getClasificaciondos() {
-        return clasificaciondos;
+    public double getcalificaciondos() {
+        return calificaciondos;
     }
 
-    public void setClasificaciondos(double clasificaciondos) {
-        if (clasificaciondos >= 0)
-            this.clasificaciondos = clasificaciondos;
+    public void setcalificaciondos(double calificaciondos) {
+        if (calificaciondos >= 0)
+            this.calificaciondos = calificaciondos;
         else
-            this.clasificaciondos = 0;
+            this.calificaciondos = 0;
     }
 }

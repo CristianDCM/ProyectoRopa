@@ -10,7 +10,7 @@ public class Tienda
         double[] calificacion1 = new double[10];
         double[] calificacion2 = new double[10];
         double[] calificacion3 = new double[10];
-        System.out.println("Digite el numero de Clientes Encuestados: ");
+        System.out.println("Digite el numero de Clientes encuestados: ");
         int nClientes = sc.nextInt();
         for (int i = 0; i < nClientes; i++)
         {

@@ -26,9 +26,9 @@ public class Calificaciones{
                         nombre = sc.next();
                         System.out.println("Digite el genero del Cliente: ");
                         genero = sc.next();
-                        System.out.println("Digite primera calificacion del cliente: ");
+                        System.out.println("Digite calificacion 1 del cliente: ");
                         calificacion1 = sc.nextDouble();
-                        System.out.println("Digite segunda calificacion del cliente: ");
+                        System.out.println("Digite calificacion 2 del cliente: ");
                         calificacion2 = sc.nextDouble();
                         try{
                             miTienda.adicionarCliente(identificacion, nombre, genero, calificacion1, calificacion2);
@@ -45,11 +45,11 @@ public class Calificaciones{
                         nombre = sc.next();
                         System.out.println("Digite el genero del Cliente: ");
                         genero = sc.next();
-                        System.out.println("Digite primera calificacion del cliente: ");
+                        System.out.println("Digite calificacion 1 del cliente: ");
                         calificacion1 = sc.nextDouble();
-                        System.out.println("Digite segunda calificacion del cliente: ");
+                        System.out.println("Digite calificacion 2 del cliente: ");
                         calificacion2 = sc.nextDouble();            
-                        System.out.println("Digite tercera calificacion del cliente: ");
+                        System.out.println("Digite calificacion 3 del cliente: ");
                         calificacion3 = sc.nextDouble();
                         try{                        
                         miTienda.adicionarCliente(identificacion, nombre, genero, calificacion1, calificacion2, calificacion3);
@@ -66,13 +66,13 @@ public class Calificaciones{
                         nombre = sc.next();
                         System.out.println("Digite el genero del Cliente: ");
                         genero = sc.next();
-                        System.out.println("Digite primera calificacion del cliente: ");
+                        System.out.println("Digite calificacion 1 del cliente: ");
                         calificacion1 = sc.nextDouble();
-                        System.out.println("Digite segunda calificacion del cliente: ");
+                        System.out.println("Digite calificacion 2 del cliente: ");
                         calificacion2 = sc.nextDouble();            
-                        System.out.println("Digite tercera calificacion del cliente: ");
+                        System.out.println("Digite calificacion 3 del cliente: ");
                         calificacion3 = sc.nextDouble();
-                        System.out.println("Digite cuarta calificacion del cliente: ");
+                        System.out.println("Digite calificacion 4 del cliente: ");
                         calificacion4 = sc.nextDouble();
                         try{                         
                         miTienda.adicionarCliente(identificacion, nombre, genero, calificacion1, calificacion2, calificacion3, calificacion4);
