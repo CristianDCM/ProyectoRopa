@@ -50,15 +50,15 @@ public class Tienda
         return promedio / 3;
     }
     
-    public void adicionarCliente(String identificacion, String nombre, String curso, double calificacionuno, double calificaciondos)throws Exception{
-        cliente.add(new ClienteEste(identificacion, nombre, curso, calificacionuno, calificaciondos));
+    public void adicionarCliente(String identificacion, String nombre, String genero, double calificacionuno, double calificaciondos)throws Exception{
+        cliente.add(new ClienteEste(identificacion, nombre, genero, calificacionuno, calificaciondos));
     }
     
-    public void adicionarCliente(String identificacion, String nombre, String curso, double calificacionuno, double calificaciondos, double calificaciontres)throws Exception{
-        cliente.add(new ClienteNorte(identificacion, nombre, curso, calificacionuno, calificaciondos, calificaciontres));
+    public void adicionarCliente(String identificacion, String nombre, String genero, double calificacionuno, double calificaciondos, double calificaciontres)throws Exception{
+        cliente.add(new ClienteNorte(identificacion, nombre, genero, calificacionuno, calificaciondos, calificaciontres));
     }
     
-    public void adicionarCliente(String identificacion, String nombre, String curso, double calificacionuno, double calificaciondos, double calificaciontres, double calificacioncuatro)throws Exception{
-        cliente.add(new ClienteSur(identificacion, nombre, curso, calificacionuno, calificaciondos, calificaciontres, calificacioncuatro));
+    public void adicionarCliente(String identificacion, String nombre, String genero, double calificacionuno, double calificaciondos, double calificaciontres, double calificacioncuatro)throws Exception{
+        cliente.add(new ClienteSur(identificacion, nombre, genero, calificacionuno, calificaciondos, calificaciontres, calificacioncuatro));
     }
 }    
