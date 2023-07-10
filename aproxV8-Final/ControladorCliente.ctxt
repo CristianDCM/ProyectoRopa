@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ControladorCliente
+comment1.params=
+comment1.target=ControladorCliente()
+comment2.params=cliente
+comment2.target=void\ guardarDato(ClienteRopa)
+comment3.params=cliente
+comment3.target=void\ modificarDato(ClienteRopa)
+comment4.params=cliente
+comment4.target=void\ eliminarDato(ClienteRopa)
+comment5.params=
+comment5.target=void\ verDatosClientes()
+comment6.params=idCliente
+comment6.target=ClienteRopa\ obtenerClientePorSuId(int)
+comment7.params=mensaje\ e
+comment7.target=void\ mostrarError(java.lang.String,\ java.lang.Exception)
+numComments=8

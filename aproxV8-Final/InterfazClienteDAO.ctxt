@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InterfazClienteDAO
+comment1.params=cliente
+comment1.target=boolean\ guardarCliente(ClienteRopa)
+comment2.params=
+comment2.target=java.util.List\ obtenerClientes()
+comment3.params=cliente
+comment3.target=boolean\ modificarCliente(ClienteRopa)
+comment4.params=cliente
+comment4.target=boolean\ eliminarCliente(ClienteRopa)
+comment5.params=idCliente
+comment5.target=ClienteRopa\ obtenerClientePorSuId(int)
+numComments=6
